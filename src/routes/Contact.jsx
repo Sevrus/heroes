@@ -1,8 +1,17 @@
 const Contact = () => {
   return(
-      <>
-          <h2>Contact</h2>
-      </>
+    <form>
+        <div>
+            <label>Votre identifiant</label>
+            <input type="text"/>
+        </div>
+        <div>
+            <label>Votre mail</label>
+            <input type="mail"/>
+        </div>
+        <textarea placeholder="Écrivez votre message ici ..."></textarea>
+        <button>ENVOYER</button>
+    </form>
   )
 }
 

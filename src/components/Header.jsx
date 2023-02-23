@@ -3,17 +3,17 @@ import start from '../assets/img/start-button-1.svg'
 
 const Header = () => {
   return(
-      <header>
-          <div>
-            <img src={shield} alt="Un bouclier" />
-            <h1>Le site dont vous êtes le héros</h1>
+      <header className="header">
+          <div className="header__title">
+            <img src={shield} alt="Un bouclier" className="header__title--resize"/>
+            <h1 className="header__title--h1Size">Heroes Journey</h1>
           </div>
-          <div>
-              <div>
+          <div className="header__connect">
+              <div className="header__connect__start">
                   <img src={start} alt="Logo start" />
                   <span>SE CONNECTER</span>
               </div>
-              <button>S'inscrire</button>
+              <button className="header__connect__inscription">S'inscrire</button>
           </div>
       </header>
   )

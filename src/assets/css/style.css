@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Roboto&display=swap");
+.header {
+  width: 100%;
+  height: 75px;
+  background-color: #121212;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.header__title {
+  display: flex;
+  align-items: center;
+  color: #f9a825;
+  font-family: "Philosopher", sans-serif;
+  margin-left: 15%;
+  gap: 20px;
+}
+.header__title--resize {
+  width: 50px;
+  height: 50px;
+}
+.header__title--h1Size {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+.header__connect {
+  display: flex;
+  align-items: center;
+  margin-right: 15%;
+}
+.header__connect__start {
+  display: flex;
+  align-items: center;
+}
+.header__connect__start span {
+  color: #c6c6c6;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.12rem;
+  padding-left: 5px;
+  margin-right: 30px;
+}
+.header__connect__inscription {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.12rem;
+  color: #c10a0a;
+  background-color: transparent;
+  border: 1px solid #c10a0a;
+  padding: 5px 10px;
+}
+
+.main-content {
+  background-image: url("../img/background-img.jpg");
+}
+
+.global-footer {
+  background-color: #121212;
+  color: #c6c6c6;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 0.75rem;
+  height: 100px;
+  width: 100%;
+  border-top: 3px solid #f9a825;
+}
+.global-footer__copyright--secondary-color {
+  color: #f9a825;
+  margin-bottom: 10px;
+}
+.global-footer__nav a {
+  text-decoration: none;
+  color: #c6c6c6;
+  margin: 0 10px;
+}
+.global-footer__nav a:hover {
+  color: #f9a825;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/*# sourceMappingURL=style.css.map */

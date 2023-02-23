@@ -2,14 +2,15 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Root from './routes/Root.jsx';
 import ErrorPage from './error-page';
-import {
-    createBrowserRouter,
-    RouterProvider,
-} from "react-router-dom";
 import Accueil from "./routes/Accueil.jsx";
 import Personnage from "./routes/Personnage.jsx";
 import Scenario from "./routes/Scenario.jsx";
 import Contact from "./routes/Contact.jsx";
+import {
+    createBrowserRouter,
+    RouterProvider,
+} from "react-router-dom";
+
 
 const router = createBrowserRouter([
     {

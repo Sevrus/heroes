@@ -2,8 +2,8 @@ import {Link} from "react-router-dom";
 
 const Content = () => {
   return(
-      <main>
-        <div>
+      <main className="main-content">
+        <div className="main-content__around">
             <header>
                 <nav>
                     <Link to={`/`}>Accueil</Link>

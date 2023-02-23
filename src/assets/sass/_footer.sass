@@ -1,0 +1,27 @@
+@import 'mixin'
+@import 'variables'
+
+.global-footer
+  background-color: $primary-color
+  color: $primary-font-color
+  font-family: $roboto
+  @include flex($center:center)
+  justify-content: space-evenly
+  font-size: $norm14
+  height: 100px
+  width: 100%
+  border-top: 3px solid $secondary-font-color
+
+  &__copyright
+    &--secondary-color
+      color: $secondary-font-color
+      margin-bottom: 10px
+
+  &__nav
+    a
+      text-decoration: none
+      color: $primary-font-color
+      margin: 0 10px
+
+      &:hover
+        color: $secondary-font-color

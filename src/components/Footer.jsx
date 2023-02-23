@@ -2,12 +2,12 @@ import {Link} from "react-router-dom";
 
 const Footer = () => {
     return (
-        <footer>
-            <div>
-                <p>Politique de Confidentialité|Conditions d'utilisation</p>
+        <footer className="global-footer">
+            <div className="global-footer__copyright">
+                <p className="global-footer__copyright--secondary-color">Politique de Confidentialité|Conditions d'utilisation</p>
                 <p>COPYRIGHT © Christophe Bodeau TOUS DROITS Réservés</p>
             </div>
-            <nav>
+            <nav className="global-footer__nav">
                 <Link to={`/`}>ACCUEIL</Link>
                 <Link to={`/personnage`}>PERSONNAGE</Link>
                 <Link to={`/scenario`}>SCÉNARIO</Link>
