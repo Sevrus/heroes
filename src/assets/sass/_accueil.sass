@@ -1,0 +1,47 @@
+@import 'variables'
+@import 'mixin'
+
+.main-accueil
+  width: 100%
+  display: flex
+  justify-content: center
+  margin-bottom: 125px
+
+  &__section
+    width: 65%
+    border: 3px solid $secondary-font-color
+    border-top: none
+    background-color: rgba(18, 18, 18, .8)
+
+    &__articles
+      color: $blank
+      font-family: $philo
+      font-weight: $regular
+      font-size: $norm16
+      padding: 0 64px
+
+      &__title
+        margin: 47px 0 26px
+
+      &__p:nth-child(2),
+      &__p:nth-child(3)
+        margin-bottom: 10px
+
+    .first
+      margin-right: 325px
+
+    .second
+      display: flex
+      justify-content: space-between
+
+      p
+        margin-bottom: 25px
+
+      ol
+        margin-left: 30px
+
+    &__line
+      width: 250px
+      margin-top: 40px
+      margin-bottom: 40px
+      color: $blank
