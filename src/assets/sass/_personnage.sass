@@ -1,0 +1,36 @@
+@import 'variables'
+@import 'mixin'
+
+.main-perso
+  @include centralMain()
+
+  &__section
+    @include centralSection()
+
+    &__title
+      text-align: center
+      font-size: $norm20
+      font-family: $philo
+      color: $blank
+      text-decoration: underline
+      margin-top: 48px
+
+    &__article-creation
+      display: flex
+      justify-content: space-around
+      margin-top: 80px
+
+      &__img-hero
+        width: 120px
+        height: 120px
+
+      &__creation-right
+        @include flex(center)
+
+        &__first
+
+          &--center
+            @include flex(center)
+
+        &__second
+          @include flex(center)

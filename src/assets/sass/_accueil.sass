@@ -2,33 +2,24 @@
 @import 'mixin'
 
 .main-accueil
-  width: 100%
-  display: flex
-  justify-content: center
-  margin-bottom: 125px
+  @include centralMain()
 
   &__section
-    width: 65%
-    border: 3px solid $secondary-font-color
-    border-top: none
-    background-color: rgba(18, 18, 18, .8)
+    @include centralSection()
 
     &__articles
-      color: $blank
-      font-family: $philo
-      font-weight: $regular
-      font-size: $norm16
-      padding: 0 64px
+      @include centralArticles()
 
       &__title
         margin: 47px 0 26px
 
       &__p:nth-child(2),
-      &__p:nth-child(3)
+      &__p:nth-child(3),
+      &__p:nth-child(4)
         margin-bottom: 10px
 
     .first
-      margin-right: 325px
+      margin-right: 20%
 
     .second
       display: flex
@@ -39,6 +30,9 @@
 
       ol
         margin-left: 30px
+
+        li
+          padding-bottom: 15px
 
     &__line
       width: 250px
